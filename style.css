@@ -1,13 +1,24 @@
 body {
-	border: 1px dotted tomato;
+	border: 20px solid darkslategray;
+	background: #ffd89b;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #19547b, #ffd89b);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #19547b, #ffd89b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	box-sizing: border-box;
-	border-width: 0 1px;
+	/* border-width: 0 1px; */
 	font-family: sans-serif;
 	font-size: 2rem;
 	margin: 0 auto;
 	max-width: 700px;
 	min-height: 100vh;
-	padding: 4rem;
+	padding: 2rem 4rem;
+}
+
+.content {
+	margin: auto;
+}
+
+h1 {
+	text-align: center;
 }
 
 ul {
@@ -16,4 +27,22 @@ ul {
 
 ul li {
 	padding: 1rem 0;
+}
+
+.done {
+	text-decoration: line-through;
+}
+
+input{
+	width: 15em; 
+	/* height: 5em; */
+	font-size: xx-large;
+	margin: auto;
+}
+
+button {
+	/* display: inline-block; */
+	/* position: relative; */
+	float: right;
+	margin: 10px 45px 0 0;
 }
