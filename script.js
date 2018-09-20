@@ -1,6 +1,7 @@
 const tasks = [
 	'Enter a new task above',
 	'Click to mark done',
+	'Clear completed task from screen'
 ];
 
 const ul = document.querySelector('ul');
