@@ -1,8 +1,6 @@
 const tasks = [
-	'buy milk',
-	'eat dinner',
-	'nail javascript',
-	'give feedback',
+	'Enter a new task above',
+	'Click to mark done',
 ];
 
 const ul = document.querySelector('ul');
