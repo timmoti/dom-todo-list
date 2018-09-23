@@ -49,16 +49,7 @@ function setCaretPosition(ctrl, pos) {
 	  range.select();
 	}
   }
-
-// Set the cursor position of the "#test-input" element to the end when the page loads
-let input = document.querySelector('input');
-
-setCaretPosition(input, input.value.length);
-
-
-
-
-
+  
 // for (let task of tasks) {
 // 	let li = document.createElement('li');
 // 	li.textContent = task;
