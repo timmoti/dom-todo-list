@@ -5,7 +5,8 @@ const input = document.querySelector('input');
 const button = document.querySelector('button');
 
 const removeElements = (elms) => {
-	[...elms].forEach(el => el.remove())
+	[...elms].forEach(el => el.remove()) 
+	//converts string into array and uses remove method to remove each letter from the array
 }
 
 // button.addEventListener('click', function() {
@@ -42,7 +43,7 @@ input.addEventListener('keypress', function(e) {
 // }
 	
 ul.addEventListener('click', function(e) {
-	if (e.target && e.target.nodeName === 'LI') {
+	if (e.target && e.target.nodeName === 'LI') { //nodeName in caps
 		e.target.classList.toggle("done");
 	}
 })
